@@ -32,6 +32,7 @@ ul li{
 }
 
 .user-container ul li{
+    width: 100%;
     vertical-align: top;
     margin: auto;
 }
