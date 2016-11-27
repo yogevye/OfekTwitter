@@ -1,0 +1,42 @@
+#main_wrapper{
+    width: 100%;
+    margin: auto;
+}
+
+body{
+    font-family: Arial,Algerian;
+}
+
+#paload{
+    width: 900px;
+    left: 10%;
+    margin: auto;
+}
+
+.filter li{
+    font-size: small;
+    display: inline-block;
+}
+ul{
+
+}
+ul li{
+    list-style-type: none;
+}
+
+.user-container{
+    margin: auto;
+    width: 90px;
+    height: 110px;
+    border: 1px solid aqua;
+}
+
+.user-container ul li{
+    vertical-align: top;
+    margin: auto;
+}
+
+
+#follow{
+    margin: auto;
+}
