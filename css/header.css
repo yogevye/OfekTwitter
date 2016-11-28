@@ -1,23 +1,29 @@
 header{
     background-color: blue;
     color:azure;
-    font-size: large;
-    vertical-align: middle;
+    font-size: 1vw;
     font-family: Arial,Andalus,"Arabic Typesetting";
     /*font-weight: bold;*/
+    height: 3vw;
 }
 
 .logo{
+    font-size: 2vw;vertical-align: middle;
+    height: 3vw;
 }
+
+
 
 header nav li{
     list-style-type: none;
 }
 
 .ofek-logo{
-    width: 3%;
+    height: 2.3vw;
+    width: 2.3vw;
     padding-right: 10px;
     vertical-align: middle;
+
 }
 
 span a{
@@ -25,9 +31,13 @@ span a{
     text-align: center;
     vertical-align: middle;
     text-decoration: none ;
-    /*font-size: large;*/
+
 }
 
+li{
+    margin-top: 1%;
+    height: 3vw;
+}
 
 span a:hover:not(.active) {
     background-color: cornflowerblue;
@@ -38,8 +48,8 @@ li a{
     /*text-align: center;*/
     text-decoration: none ;
     vertical-align: middle;
-    font-size: smaller;
 }
+
 
 li a:hover:not(.active) {
     background-color: cornflowerblue ;
@@ -49,11 +59,15 @@ li a:hover:not(.active) {
     background-color: cornflowerblue;
 }
 
+
 .opt-list{
     float: right;
     padding-right: 10px;
 }
 
 .nav-logo{
-   /*float: left;*/
+    /*float: left;*/
 }
+
+
+

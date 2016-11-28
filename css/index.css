@@ -1,12 +1,18 @@
 #main_wrapper{
-    width: 100%;
-    margin: auto;
+    /*width: 100%;*/
+    /*margin: auto;*/
 }
 
 #paload{
     width: 900px;
-    left: 10%;
+    /*left: 10%;*/
     margin: auto;
+    font-size: 1vw;
+}
+
+#paload div{
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 #message{
@@ -19,11 +25,20 @@
     vertical-align: middle;
 }
 
-.ini-block{
+
+section *{
     display: inline-block;
     vertical-align: top;
 }
 
 .contactList li{
     list-style-type: none;
+    margin-bottom: 1%;
+    margin-top: 1%;
+
+}
+
+.user-img{
+    height: 4vw;
+    width: 4vw;
 }
