@@ -9,16 +9,22 @@ body{
 
 #paload{
     width: 100%;
-    margin-right: 10%;
+    /*margin-left: 10%;*/
+
+}
+
+.search{
+
 }
 
 .filter li{
-    font-size: small;
+    font-size: 1vw;
     display: inline-block;
 }
 
 .container{
-    border: 5px solid aqua;
+   /* border: 5px solid aqua;*/
+    text-align: center;
 }
 
 .boxes, .folowees{
@@ -37,11 +43,13 @@ body{
     color: black;
     margin: auto;
 
-
 }
 .folowees h4{
     margin: auto;
     color: black;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-size: 1.5vw;
 }
 
 .folowees div{
@@ -78,7 +86,8 @@ body{
 }
 
 .box span{
-    font-size: small;
+    /*font-size: small;*/
+    font-size: 1vw;
 }
 
 .box div img form{
