@@ -8,36 +8,84 @@ body{
 }
 
 #paload{
-    width: 900px;
-    left: 10%;
-    margin: auto;
+    width: 100%;
+    margin-right: 10%;
 }
 
 .filter li{
     font-size: small;
     display: inline-block;
 }
-ul{
 
-}
-ul li{
-    list-style-type: none;
+.container{
+    border: 5px solid aqua;
 }
 
-.user-container{
-    margin: auto;
-    width: 90px;
-    height: 110px;
-    border: 1px solid aqua;
-}
-
-.user-container ul li{
-    width: 100%;
+.boxes, .folowees{
+    display: inline-block;
     vertical-align: top;
+}
+
+.boxes{
+    width: 70%;
+ }
+
+.folowees{
+    width: 15%;
+    border-radius: 3px;
+    border: 5px solid aqua;
+    color: black;
     margin: auto;
+
+
+}
+.folowees h4{
+    margin: auto;
+    color: black;
+}
+
+.folowees div{
+    width: 56%;
+}
+
+.boxes div{
+    width: 12%;
+    float: left;
 }
 
 
-#follow{
+
+.box{
+
+    /*width: 12%;*/
+    padding: 10px;
+    border: 2px solid aqua;
+    margin: 0;
+    margin-left: 0.3%;
+    margin-right: 0.3%;
+    margin-top: 0.3%;
+    margin-bottom: 0.3%;
+}
+
+.box div{
+    width: 60%;
+    padding-right: 20%;
+    padding-left: 20%
+}
+
+.box div img{
     margin: auto;
 }
+
+.box span{
+    font-size: small;
+}
+
+.box div img form{
+    border-radius: 20%;
+}
+
+.user-pic{
+    width: 100%;
+}
+

@@ -1,39 +1,59 @@
 header{
     background-color: blue;
     color:azure;
-
+    font-size: large;
+    vertical-align: middle;
+    font-family: Arial,Andalus,"Arabic Typesetting";
+    /*font-weight: bold;*/
 }
 
-#ofek-img{
-    width: 10%;
-    margin-bottom: auto;
+.logo{
+}
+
+header nav li{
+    list-style-type: none;
+}
+
+.ofek-logo{
+    width: 3%;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+span a{
+    color: azure;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none ;
+    /*font-size: large;*/
+}
+
+
+span a:hover:not(.active) {
+    background-color: cornflowerblue;
+}
+
+li a{
+    color: azure;
+    /*text-align: center;*/
+    text-decoration: none ;
+    vertical-align: middle;
+    font-size: smaller;
+}
+
+li a:hover:not(.active) {
+    background-color: cornflowerblue ;
+}
+
+.ofek-logo:hover:not(.active) {
+    background-color: cornflowerblue;
+}
+
+.opt-list{
+    float: right;
     padding-right: 10px;
 }
 
-.header-li2{
-    /* float: left;
-     padding-right: 5px;*/
-    float: left;
-
-
-}
-.header-li{
-    /* float: right;*/
-    /*padding-right: 5px;*/
-    margin-left: auto;
-    padding-right: 5px;
-    display: inline-block;
-    text-align: right
-}
-
-article
-{
-    display: inline-block;
-    vertical-align: middle;
-
-}
-aside{
-    display: inline-block;
-    vertical-align: middle;
-
+.nav-logo{
+   /*float: left;*/
 }
