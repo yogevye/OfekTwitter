@@ -1,73 +1,78 @@
 header{
     background-color: blue;
-    color:azure;
+
     font-size: 1vw;
     font-family: Arial,Andalus,"Arabic Typesetting";
-    /*font-weight: bold;*/
     height: 3vw;
-}
 
-.logo{
-    font-size: 2vw;vertical-align: middle;
-    height: 3vw;
+    font-weight: bold;
 }
 
 
+nav div{
+    float: left;
+    padding-left: 1vw;
+    padding-right: 1vw;
+
+}
+
+.div-logo{
+    padding-top: 0.5vw;
+    height: 2.5vw;
+}
+
+.div-title{
+    padding-top: 1vw;
+    height: 2vw;
+}
+
+nav ul{
+    /*float: right;*/
+
+}
+
+nav ul li{
+    float: right;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-top: 1vw;
+    height: 2vw;
+
+
+}
 
 header nav li{
     list-style-type: none;
 }
 
+nav div span{
+
+    margin-top: 2%;
+}
+
+a{
+    text-decoration: none ;
+
+}
+
 .ofek-logo{
     height: 2.3vw;
     width: 2.3vw;
-    padding-right: 10px;
-    vertical-align: middle;
-
 }
 
-span a{
+.title{
+   text-align: center;
     color: azure;
+}
+.links{
     text-align: center;
-    vertical-align: middle;
-    text-decoration: none ;
-
-}
-
-li{
-    margin-top: 1%;
-    height: 3vw;
-}
-
-span a:hover:not(.active) {
-    background-color: cornflowerblue;
-}
-
-li a{
     color: azure;
-    /*text-align: center;*/
-    text-decoration: none ;
-    vertical-align: middle;
 }
 
-
-li a:hover:not(.active) {
-    background-color: cornflowerblue ;
-}
-
-.ofek-logo:hover:not(.active) {
+nav div:hover:not(.active) {
     background-color: cornflowerblue;
 }
 
-
-.opt-list{
-    float: right;
-    padding-right: 10px;
+nav ul li:hover:not(.active) {
+    background-color: cornflowerblue;
 }
-
-.nav-logo{
-    /*float: left;*/
-}
-
-
-

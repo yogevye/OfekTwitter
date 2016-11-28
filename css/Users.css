@@ -81,6 +81,10 @@ body{
     margin-bottom: 0.3%;
 }
 
+.box:hover:not(.active) {
+    border: 2px solid silver;
+}
+
 .box div{
     width: 60%;
     padding-right: 20%;
