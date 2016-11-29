@@ -9,9 +9,6 @@ body{
 
 #paload{
     width: 100%;
-
-    /*margin-left: 10%;*/
-
 }
 
 .search{
@@ -28,7 +25,6 @@ body{
 }
 
 .container{
-   /* border: 5px solid aqua;*/
     text-align: center;
 
 }
@@ -51,15 +47,14 @@ body{
 
 }
 .folowees h4{
-    margin: auto;
     color: black;
-    margin-bottom: 5%;
-    margin-top: 5%;
+    margin: 5% auto;
     font-size: 1.5vw;
 }
 
 .folowees div{
     width: 56%;
+    margin: auto;
 }
 
 .boxes div{
@@ -74,11 +69,7 @@ body{
     /*width: 12%;*/
     padding: 10px;
     border: 2px solid #e6e6e6;
-    margin: 0;
-    margin-left: 0.3%;
-    margin-right: 0.3%;
-    margin-top: 0.3%;
-    margin-bottom: 0.3%;
+    margin: 0.3%;
 }
 
 .box:hover:not(.active) {
@@ -88,7 +79,7 @@ body{
 .box div{
     width: 60%;
     padding-right: 20%;
-    padding-left: 20%
+    padding-left: 20%;
 }
 
 .box div img{
@@ -105,6 +96,14 @@ body{
 }
 
 .user-pic{
+    width: 100%;
+}
+
+.user-name{
+    text-align: center;
+}
+
+.box form button{
     width: 100%;
 }
 

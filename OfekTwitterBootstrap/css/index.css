@@ -1,0 +1,23 @@
+
+.contactList li{
+    list-style-type: none;
+    margin-bottom: 1%;
+    margin-top: 1%;
+
+}
+
+.contactList section *{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contactList section span{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.user-img{
+    height: 4vw;
+    width: 4vw;
+}
+

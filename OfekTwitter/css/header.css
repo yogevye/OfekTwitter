@@ -1,19 +1,18 @@
 header{
-    background-color: blue;
-
+    background-color: #0a64eb;
     font-size: 1vw;
     font-family: Arial,Andalus,"Arabic Typesetting";
     height: 3vw;
-
-    font-weight: bold;
+    font-xweight: bold;
 }
 
+header nav{
 
+}
 nav div{
     float: left;
     padding-left: 1vw;
     padding-right: 1vw;
-
 }
 
 .div-logo{
@@ -26,16 +25,12 @@ nav div{
     height: 2vw;
 }
 
-nav ul{
-    /*float: right;*/
-
-}
 
 nav ul li{
     float: right;
     margin-left: 1vw;
     margin-right: 1vw;
-    padding-top: 1vw;
+    padding-top: 0.8vw;
     height: 2vw;
 
 
@@ -50,9 +45,8 @@ nav div span{
     margin-top: 2%;
 }
 
-a{
+header a{
     text-decoration: none ;
-
 }
 
 .ofek-logo{
