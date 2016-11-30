@@ -1,0 +1,23 @@
+
+
+
+
+
+
+.twit {
+    margin-bottom: 1%;
+}
+
+.twit-img{
+    float: left;
+}
+
+.twit-usr{
+    margin-left: 5%;
+    font-weight: 700;
+    color: green
+}
+
+.twit-msg{
+    margin-left: 5%;
+}

@@ -1,0 +1,40 @@
+header{
+    font-weight: 700;
+}
+
+header a{
+    text-decoration: none ;
+}
+
+header nav{
+    background-color: #f8f8f8;
+}
+header nav ul li{
+
+    list-style-type: none;
+    color: #ffffff;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+header nav ul li a{
+
+    color: #ffffff;
+}
+.navbar-brand{
+    color: #ffffff;
+}
+
+
+
+.publish-form button{
+    /*float: right;*/
+    background-color: #428bca;
+}
+
+.navbar{
+    background-color: #0a64eb;
+}
+
+.header-class{
+    margin-bottom: 6vw;
+}
