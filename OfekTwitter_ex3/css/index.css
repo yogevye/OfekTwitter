@@ -15,9 +15,33 @@
 .twit-usr{
     margin-left: 5%;
     font-weight: 700;
+    color: black;
+}
+
+.twit-my-usr{
+    margin-left: 5%;
+    font-weight: 700;
     color: green
 }
 
 .twit-msg{
     margin-left: 5%;
+}
+.testRow{
+    background-color: #bafdba;
+
+}
+
+.testRow ul li{
+    ist-style-type: none;
+    border: 1px solid black;
+    margin-top: 0.5%;
+}
+
+.success{
+    background-color: #bafdba;
+}
+
+.faied{
+    background-color: salmon;
 }
