@@ -6,11 +6,46 @@
 
 window.onload = function() {
     LoadAllTwits();
-    newTestDiv(test_group,"Selector");
+    /*newTestDiv(test_group,"Selector");*/
     document.getElementById("publish").addEventListener("click", publishTwith);
-    $('div ul');
+
+    test_group('first test group', function() {
+        assert(test1(), "counting one image logo class element");
+        assert(test2(), "counting 3 twit-usr class under twit-list id");
+    });
+
+
+
+
+
+    $('ul');
+    /*
+    var ul =  $('ul');
+    console.log("*************");
+    console.log($('ul'));
+    console.log("*************");
+
+    var a = $('div');
+    console.log("*************------------");
+    console.log(a);
+    console.log("*************-------------"); */
+/*
+    console.log("test1: " + $('ul').any(function(el) {
+            return el.childElementCount > 5
+        }));
+    console.log($('ul').filter(function(el) {
+        return (el.childElementCount === 3);
+    })) // returns a new OfekQuery object containing all ul elements that have
+
+    $('.pretty-box').addClass('big-box')
+    */
+
+
 
 }
+
+
+
 
 var Twits =
     [
@@ -118,7 +153,7 @@ function NumOfTwits(){
     var divs = twitList.querySelectorAll('.twit');
     return divs.length == 5;
 }
-
+/*
 function test_group(divRow, className) {
     var ul = document.createElement("ul");
     className != undefined ? ul.className = className : ul.className ="";
@@ -127,7 +162,7 @@ function test_group(divRow, className) {
     ul.appendChild(liAssert(test1(),"test1"));
     divRow.appendChild(ul);
 
-}
+}*/
 
 function newTestDiv(test_group, header) {
     var testDiv = document.getElementById("testContainer");
@@ -145,89 +180,7 @@ function newTestDiv(test_group, header) {
 /*   ########################################################################  */
 
 
-function filterElemnts(elmenets, args) {
-    if(elmenets.length == 0 || arg.length ==0){return [];}
-    var arg = args[0];
-    var type = arg[0];
-    var ans = [];
-    var FilterBy = setFilterBy(type);
-
-    elmenets.filter(function (element) {
-        return FilterBy(element, type);
-    });
-    if(arg.length == 1){
-        return elmenets;
-    }
-    else{
-        elmenets.forEach(function (element) {
-            ans.concat(element.args.splice(1));
-        })
-    }
-    return ans;
-}
-
-function setFilterBy(type){
-    if(type == '.'){return filterByClass;};
-    if(type == '#'){return filterByElementID;};
-    return filterByElementType;
-}
-
-function filterByClass(element, className){
-    return element.className == className;
-}
-
-function filterByElementType(element, type){
-    return element.tagName == type;
-}
-
-function filterByElementType(element, className){
-
-}
 
 
-var $ = (function(testString) {
 
-    var elements = document.body.childNodes;
-    console.log("$: " + testString);
-    var args = testString.split(' ');
-    var elements = filterElemnts(elements, args)
-    console.log(elements);
-    return {
-        any: function(){
-            elements.forEach(function (element) {
-                var bool = true;
-                arguments.forEach(function(argument){
-                    if(argument(element) == false){bool = !bool};
-                })
-                if(bool){return true;}
-            });
-            return false;
-        },
-        all: function(){
-            elements.forEach(function (element) {
-                var bool = true;
-                arguments.forEach(function(argument){
-                    if(argument(element) == false){bool = !bool};
-                })
-                if(!bool){return false;}
-            });
-            return true;
-        },
-        filter: function(){
-            arguments.forEach(function (argument) {
-                argument.filter(argument);
-            })
-        },
-        css: function(property, value){
-        },
-        count: function(property, value){
-            return elements.size();
-        },
-        getAttribute: function(attributeName){
 
-        },
-        get: function(index){
-
-        }
-    };
-})();
