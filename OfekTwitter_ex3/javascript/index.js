@@ -6,45 +6,55 @@
 
 window.onload = function() {
     LoadAllTwits();
+    myTests();
     /*newTestDiv(test_group,"Selector");*/
     document.getElementById("publish").addEventListener("click", publishTwith);
-
-    test_group('first test group', function() {
-        assert(test1(), "counting one image logo class element");
-        assert(test2(), "counting 3 twit-usr class under twit-list id");
-    });
-
-
-
-
-
-    $('ul');
-    /*
-    var ul =  $('ul');
-    console.log("*************");
-    console.log($('ul'));
-    console.log("*************");
-
-    var a = $('div');
-    console.log("*************------------");
-    console.log(a);
-    console.log("*************-------------"); */
-/*
-    console.log("test1: " + $('ul').any(function(el) {
-            return el.childElementCount > 5
-        }));
-    console.log($('ul').filter(function(el) {
-        return (el.childElementCount === 3);
-    })) // returns a new OfekQuery object containing all ul elements that have
-
-    $('.pretty-box').addClass('big-box')
-    */
-
-
-
 }
 
+function myTests() {
+    var a = $('#twit-list .twit');
+     /*var a = $('div');*/
+    console.log(a);
 
+    test_group('Selectors', function() {
+        assert(test3(), "first div class is container");
+        assert(test1(), "counting two navbar-brand class element");
+        assert(test2(), "counting 3 twit class under twit-list id");
+
+    });
+
+    test_group('CSS', function() {
+        assert(test4(), "added class testingClass to first div class conatiner");
+        assert(test5(), "remove class testingClass to first div class conatiner");
+        assert(test6(), "set style to testContainer div");
+    });
+
+    test_group('Functional functions tests', function() {
+
+    });
+
+     /*
+
+     var ul =  $('ul');
+     console.log("*************");
+     console.log($('ul'));
+     console.log("*************");
+
+     var a = $('div');
+     console.log("*************------------");
+     console.log(a);
+     console.log("*************-------------"); */
+    /*
+     console.log("test1: " + $('ul').any(function(el) {
+     return el.childElementCount > 5
+     }));
+     console.log($('ul').filter(function(el) {
+     return (el.childElementCount === 3);
+     })) // returns a new OfekQuery object containing all ul elements that have
+
+     $('.pretty-box').addClass('big-box')
+     */
+}
 
 
 var Twits =

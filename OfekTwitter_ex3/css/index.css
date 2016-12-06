@@ -38,10 +38,17 @@
     margin-top: 0.5%;
 }
 
+.testing-li{
+    ist-style-type: none;
+}
+
 .success{
     background-color: #bafdba;
 }
 
 .failed{
     background-color: salmon;
+}
+
+.testingClass{
 }
