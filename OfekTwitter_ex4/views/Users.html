@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ofek Twitter</title>
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/Users.css" />
+    <link rel="stylesheet" href="../../bootstrap-3.3.7-dist/css/bootstrap.css" />
+    <script src="../javascript/users.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="header-class row">
+        <header>
+            <nav class="navbar navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <span>
+                            <img class="navbar-brand" src="../../images/ofek.png">
+                            <a class="navbar-brand" href="index.html">Ofek Twitter</a>
+                        </span>
+                    </div>
+                    <div>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="pull-right"><a href=""><span class="links">Sign in</span></a>
+                            <li class="pull-right"><a href=""><span class="links">Sign up</span></a></li>
+                            <li class="pull-right"><a href="Users.html"><span class="links">Users</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+    </div>
+
+
+    <div class="row">
+        <form class="col-xs-5 search">
+            <input type="text" class="form-control" id="search" placeholder="Search" />
+            <button type="submit" class="btn btn-primary">ok</button>
+        </form>
+    </div>
+
+    <div class="row">
+        <div class="boxes col-xs-10">
+
+            <div class="row" id="UnFollowUsersList">
+            </div>
+
+        </div>
+    <div class="container folowees col-xs-2">
+
+        <h3>Followees</h3>
+        <div class="row" id="followUsersList">
+         </div>
+     </div>
+
+    </div>
+</body>
+</html>
